@@ -26,7 +26,7 @@ for px = 2:3 % Degree of spline functions in space
     N_plot = 100; % Number of points for reconstructing the solution
     Nq = 32; % Number of quadrature points
     N1 = 2; % Starting resolution level (time and space intervals 2^(N1+1))
-    N2 = 4; % Ending resolution level (time and space intervals 2^(N2+1))
+    N2 = 7; % Ending resolution level (time and space intervals 2^(N2+1))
 
     w = @(x) exp(-20*(x-0.1).^2) - exp(-20*(x+0.1).^2);
     dw = @(x) exp(-20*(x+0.1).^2).*(40*x+4) - exp(-20*(x-0.1).^2).*(40*x-4);
