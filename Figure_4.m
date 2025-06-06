@@ -2,7 +2,7 @@
 % "Inf-sup stable space--time discretization of the wave equation based on a first-order-in-time variational formulation"
 % Authors: M. Ferrari and I. Perugia and E. Zampa
 %
-% This code generates Figure 5
+% This code generates Figure 4
 
 clc
 clear
